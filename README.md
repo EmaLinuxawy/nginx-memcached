@@ -2,7 +2,7 @@
 Build of Nginx with memcache module.
 
 ### Why we need to use this image
-In case of mid/large scale we need to avoide hassle to hit all requests to our application server, so i using nginx with memcached module make full page cache to get/set requests from our memcached server if our page is not in cache once we hit it nginx can set the key and any new request in the same page will served from our cache server
+In case of Mid/Large scale , A lot of requests will hit the application directly ,so I build a module using Nginx with Memcached as  Caching Layer `Full page cache` . to retreive  requests from our memcached server if our page is not in cache once we hit Page , nginx can set the key and any new request in the same page will served from our cache server
 
 ## How to use this image
 ### Run container with specific nginx.conf
