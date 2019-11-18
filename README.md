@@ -1,4 +1,4 @@
-# nginx-memcached
+# Nginx-Memcached
 Build of Nginx with memcache module.
 
 ### Why we need to use this image
